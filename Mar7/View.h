@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 Salvatore Lentini. All rights reserved.
 //
 
+
 #import <UIKit/UIKit.h>
 @class JProbeView;
 @interface View: UIView {
@@ -15,6 +16,8 @@
 	CGFloat width;	//of label
 	CGFloat height;
     JProbeView *jprobeView;
+    UIImage * jpImage;
 }
 
 @end
+
